@@ -1,0 +1,1335 @@
+{
+  "intents": [
+    {
+      "intent": "Yes",
+      "examples": [
+        {
+          "text": "Got fire"
+        },
+        {
+          "text": "Got fire, got fire"
+        },
+        {
+          "text": "Have, got fire, got fire"
+        },
+        {
+          "text": "Have fire"
+        },
+        {
+          "text": "have fire, have fire"
+        },
+        {
+          "text": "Yankee"
+        },
+        {
+          "text": "Yankee Echo Sierra"
+        },
+        {
+          "text": "Y"
+        },
+        {
+          "text": "Yes, it is."
+        },
+        {
+          "text": "Yah"
+        },
+        {
+          "text": "Yeah"
+        },
+        {
+          "text": "Ya"
+        },
+        {
+          "text": "Yup"
+        },
+        {
+          "text": "Sure"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "enquiry_about_symptoms",
+      "examples": [
+        {
+          "text": "I am here to inquire about the symptoms for dengue."
+        },
+        {
+          "text": "I am here to inquire about the symptoms for haze."
+        },
+        {
+          "text": "I am here to inquire about the symptoms for stroke."
+        },
+        {
+          "text": "I want to ask about the symptoms for haze."
+        },
+        {
+          "text": "I want to ask about the symptoms for dengue."
+        },
+        {
+          "text": "I want to ask about the symptoms for stroke."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "idk_extinguisher",
+      "examples": [
+        {
+          "text": "I don't know"
+        },
+        {
+          "text": "Ya, how to use ah?"
+        },
+        {
+          "text": "Don't know"
+        },
+        {
+          "text": "No, I don't know"
+        },
+        {
+          "text": "I dont know"
+        },
+        {
+          "text": "Ya, how to use a fire extinguisher?"
+        },
+        {
+          "text": "idk how to extinguisher"
+        },
+        {
+          "text": "idk how to fire extinguisher"
+        },
+        {
+          "text": "what is fire extinguisher"
+        },
+        {
+          "text": "what is fire extinguisher?"
+        },
+        {
+          "text": "idk how to use fire extinguisher"
+        },
+        {
+          "text": "dk"
+        },
+        {
+          "text": "idk"
+        },
+        {
+          "text": "dont know"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "symptoms",
+      "examples": [
+        {
+          "text": "What are the symptoms for dengue?"
+        },
+        {
+          "text": "What are the symptoms for haze?"
+        },
+        {
+          "text": "What are the symptoms for stroke?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "tq",
+      "examples": [
+        {
+          "text": "tq tq"
+        },
+        {
+          "text": "Oh thkx"
+        },
+        {
+          "text": "Oh thks"
+        },
+        {
+          "text": "Oh thanks"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "Sankiu"
+        },
+        {
+          "text": "sankiuuuu"
+        },
+        {
+          "text": "sankiuu"
+        },
+        {
+          "text": "sankiuuu"
+        },
+        {
+          "text": "tango"
+        },
+        {
+          "text": "tango yankee"
+        },
+        {
+          "text": "tqvm"
+        },
+        {
+          "text": "tq"
+        },
+        {
+          "text": "thkx"
+        },
+        {
+          "text": "thks"
+        },
+        {
+          "text": "tqtq"
+        },
+        {
+          "text": "Oh ok. Tq"
+        },
+        {
+          "text": "Oh tq"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "looking_for_job_aid",
+      "examples": [
+        {
+          "text": "I am looking for job aids."
+        },
+        {
+          "text": "I am looking for a job aid."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "No",
+      "examples": [
+        {
+          "text": "No fire"
+        },
+        {
+          "text": "N"
+        },
+        {
+          "text": "November Oscar"
+        },
+        {
+          "text": "November"
+        },
+        {
+          "text": "No, it does not involve fire."
+        },
+        {
+          "text": "No, it is not related to fire"
+        },
+        {
+          "text": "Where got fire"
+        },
+        {
+          "text": "No, it doesn't"
+        },
+        {
+          "text": "No, it is not"
+        },
+        {
+          "text": "No, it isn't"
+        },
+        {
+          "text": "Nah"
+        },
+        {
+          "text": "Nope"
+        },
+        {
+          "text": "No, it does not"
+        },
+        {
+          "text": "No fire lah"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "non-fire-incident",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "stroke",
+          "synonyms": [
+            "strokes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "unconsciousness",
+          "synonyms": [
+            "unconscious",
+            "faint",
+            "fainted",
+            "unconcious",
+            "unconsious",
+            "coma",
+            "faints"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CPR",
+          "synonyms": [
+            "CPR required",
+            "Cardiopulmonary Resuscitation",
+            "Cardiopulmonary Resuscitation required",
+            "cardiopulmonary"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AED",
+          "synonyms": [
+            "AED required",
+            "Automated External Defibrillator",
+            "Automated External Defibrillator required",
+            "Cardiac Arrest",
+            "Basic Cardiac Life Support",
+            "Cardiac Life Support",
+            "Out-of Hospital Cardiac Arrest",
+            "defibrillation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Heart attack",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Active seizure",
+          "synonyms": [
+            "Seizure",
+            "Seizure attack",
+            "Epilepsy",
+            "Epileptic",
+            "Epileptics",
+            "seizures"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Breathing difficulty",
+          "synonyms": [
+            "Difficulty in breathing",
+            "Breathlessness",
+            "Respiratory Distress",
+            "Breathless",
+            "dyspnea",
+            "wheezing",
+            "hyperventilation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Asthma",
+          "synonyms": [
+            "asthmatic"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Choking",
+          "synonyms": [
+            "strangling",
+            "choked",
+            "strangulation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Burn",
+          "synonyms": [
+            "Thermal burn",
+            "Burns",
+            "Thermal burns",
+            "burnt"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Low blood sugar",
+          "synonyms": [
+            "Low blood sugar level",
+            "Hypoglycemia",
+            "hypoglycaemia",
+            "hypoglycemic",
+            "hypoglycaemic"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Fall down",
+          "synonyms": [
+            "Normal fall down",
+            "Fell down",
+            "Fall",
+            "Falls",
+            "Normal fall",
+            "Normal falls",
+            "Falling down",
+            "Normal falling down",
+            "Falls in the elderly",
+            "Falls in elderly",
+            "Elderly falls down",
+            "Elderly fell down",
+            "General falling down"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "symptoms",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "dengue fever",
+          "synonyms": [
+            "dengue",
+            "dengue outbreak"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "haze",
+          "synonyms": [
+            "hazy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "stroke",
+          "synonyms": [
+            "strokes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "slot",
+      "parent": "node_4_1592107174276",
+      "dialog_node": "slot_4_1592108504083"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1592108475557",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1592108475605",
+      "previous_sibling": "handler_1_1592108475605"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1592108475557",
+      "event_name": "input",
+      "dialog_node": "handler_1_1592108475605"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Face dropping, especially only 1 side"
+              },
+              {
+                "text": "Arm or leg weakness, especially only 1 side"
+              },
+              {
+                "text": "Speech difficulty, unclear or slurred speech"
+              },
+              {
+                "text": "Sudden problems seeing in one eye or both eyes"
+              },
+              {
+                "text": "Sudden dizziness"
+              },
+              {
+                "text": "Loss of balance or coordination"
+              },
+              {
+                "text": "Have trouble walking"
+              },
+              {
+                "text": "Sudden severe headache with no known cause"
+              },
+              {
+                "text": "Double vision"
+              },
+              {
+                "text": "Drowsiness"
+              },
+              {
+                "text": "Nausea"
+              },
+              {
+                "text": "Vomiting"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1592123921436",
+      "conditions": "@symptoms:stroke",
+      "event_name": "generic",
+      "dialog_node": "handler_9_1592123921442",
+      "previous_sibling": "handler_8_1592123921442"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1592123921436",
+      "variable": "$Yes",
+      "dialog_node": "slot_4_1592123921442",
+      "previous_sibling": "handler_9_1592123921442"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Headache"
+              },
+              {
+                "text": "Nose, throat or eyes inflammation"
+              },
+              {
+                "text": "Coughing"
+              },
+              {
+                "text": "Painful breathing"
+              },
+              {
+                "text": "Skin irritation"
+              },
+              {
+                "text": "Sneezing"
+              },
+              {
+                "text": "Nasal congestion"
+              },
+              {
+                "text": "Nasal discharge"
+              },
+              {
+                "text": "No smell"
+              },
+              {
+                "text": "Lacrimation"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1592123921436",
+      "conditions": "@symptoms:haze",
+      "event_name": "generic",
+      "dialog_node": "handler_8_1592123921442",
+      "previous_sibling": "handler_7_1592123921442"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fever"
+              },
+              {
+                "text": "Rashes"
+              },
+              {
+                "text": "Joint pain"
+              },
+              {
+                "text": "Muscle pain"
+              },
+              {
+                "text": "Headache"
+              },
+              {
+                "text": "Conjunctivitis or red eyes"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1592123921436",
+      "conditions": "@symptoms:(dengue fever)",
+      "event_name": "generic",
+      "dialog_node": "handler_7_1592123921442"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1. Cool with lukewarm water for at least 10 min."
+              },
+              {
+                "text": "2. Constrictors like rings and watches to be removed."
+              },
+              {
+                "text": "3. Cover lightly with a thin sheet or bandage."
+              },
+              {
+                "text": "4. Consult a doctor for treatment."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1592122148731",
+      "conditions": "@non-fire-incident:Burn",
+      "dialog_node": "response_3_1592122223420",
+      "previous_sibling": "response_8_1592122221892"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1. Check is the victim conscious."
+              },
+              {
+                "text": "2. If conscious, assist him to sit up or stand up."
+              },
+              {
+                "text": "3. Assess and ask him does he have any injury."
+              },
+              {
+                "text": "4. Apply first aid like bandage if have bleeding."
+              },
+              {
+                "text": "5. Consult a doctor if there is any persistent injury."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1592122148731",
+      "conditions": "@non-fire-incident:(Fall down)",
+      "dialog_node": "response_5_1592122224549",
+      "previous_sibling": "response_3_1592122223420"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1. Check the victim’s airway, breathing and pulse."
+              },
+              {
+                "text": "2. If any abnormal or absence, start CPR."
+              },
+              {
+                "text": "3. Loosen any tight clothing."
+              },
+              {
+                "text": "4. If he has an inhaler, ask him use it. Assist where necessary."
+              },
+              {
+                "text": "5. Continue to monitor the person’s breathing & pulse until SCDF officers arrive."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1592122148731",
+      "conditions": "@non-fire-incident:(Breathing difficulty)",
+      "dialog_node": "response_9_1592122216780",
+      "previous_sibling": "response_2_1592122215577"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1. Check for surrounding danger."
+              },
+              {
+                "text": "2. Check for the victim's response."
+              },
+              {
+                "text": "3. Call ambulance."
+              },
+              {
+                "text": "4. Lay the person on his back and open his airway."
+              },
+              {
+                "text": "5. Check for breathing. "
+              },
+              {
+                "text": "6. If breathing is absent, abnormal or unsure, place your hands at the centre of the chest."
+              },
+              {
+                "text": "7. Push hard and fast at 2 compressions per second."
+              },
+              {
+                "text": "8. Repeat cycles of 30 compressions and 2 rescue breaths."
+              },
+              {
+                "text": "9. Turn on the AED & apply the AED pads."
+              },
+              {
+                "text": "10. Follow the AED instructions until breathing returns or SCDF officers arrive."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1592122148731",
+      "conditions": "@non-fire-incident:AED",
+      "dialog_node": "response_4_1592122179716",
+      "previous_sibling": "response_8_1592122160694"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1. Prepare sugary drinks to help raise blood sugar back to normal."
+              },
+              {
+                "text": "2. If conscious, let the victim sip the sugary liquids slowly. "
+              },
+              {
+                "text": "3. If unconscious, call ambulance and place the victim in a recovery position."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1592122148731",
+      "conditions": "@non-fire-incident:(Low blood sugar)",
+      "dialog_node": "response_8_1592122221892",
+      "previous_sibling": "response_4_1592122220291"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1. Let victim sit up straight."
+              },
+              {
+                "text": "2. Encourage victim to breathe deeply."
+              },
+              {
+                "text": "3. If he has an inhaler, ask him use it. Assist if needed."
+              },
+              {
+                "text": "4. Monitor the victim after using the inhaler."
+              },
+              {
+                "text": "5. If no relief after few min, call ambulance."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1592122148731",
+      "conditions": "@non-fire-incident:Asthma",
+      "dialog_node": "response_3_1592122218080",
+      "previous_sibling": "response_9_1592122216780"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1. Call ambulance immediately."
+              },
+              {
+                "text": "2. If the victim is breathing and no spinal injury is suspected, turn to recovery position to keep the airway clear."
+              },
+              {
+                "text": "3. Treat the source of unconsciousness, if possible."
+              },
+              {
+                "text": "4. If the victim has stopped breathing, start CPR."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1592122148731",
+      "conditions": "@non-fire-incident:unconsciousness",
+      "dialog_node": "response_4_1592122220291",
+      "previous_sibling": "response_2_1592122219152"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1. Call ambulance."
+              },
+              {
+                "text": "2. Help move victim into comfortable position. Best position is sit on the floor, with knees bent & head and shoulders supported. Keep him calm."
+              },
+              {
+                "text": "3. Loosen any tight clothing."
+              },
+              {
+                "text": "4. Ask him to take chest pain medicine for his heart condition, if he has any. Assist if needed."
+              },
+              {
+                "text": "5. Monitor whether is victim still conscious until SCDF officers arrive."
+              },
+              {
+                "text": "6. If he becomes unconscious, start CPR."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1592122148731",
+      "conditions": "@non-fire-incident:(Heart attack)",
+      "dialog_node": "response_1_1592122181140",
+      "previous_sibling": "response_4_1592122179716"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1. Move behind the victim and place 1 leg between his legs."
+              },
+              {
+                "text": "2. Place 2 fingers above the belly button."
+              },
+              {
+                "text": "3. Place clenched fist, thumb side inwards above the fingers."
+              },
+              {
+                "text": "4. Lean him forward."
+              },
+              {
+                "text": "5. Wrap the other hand around your fist."
+              },
+              {
+                "text": "6. Give quick inwards and upwards thrusts, continue until the object is dislodged or he turns unconscious."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1592122148731",
+      "conditions": "@non-fire-incident:Choking",
+      "dialog_node": "response_2_1592122219152",
+      "previous_sibling": "response_3_1592122218080"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1. Call ambulance immediately."
+              },
+              {
+                "text": "2. Prevent the victim from walking or standing."
+              },
+              {
+                "text": "3. Treat injuries, if any."
+              },
+              {
+                "text": "4. If the victim does not respond and stops breathing, start CPR."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1592122148731",
+      "conditions": "@non-fire-incident:stroke",
+      "dialog_node": "response_5_1592122188416",
+      "previous_sibling": "response_1_1592122181140"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1. Remove anything that might injure or harm the victim from the his vicinity."
+              },
+              {
+                "text": "2. Until he fully recovers, don’t restrain his movements, especially for elderly. Always guide his movements gently."
+              },
+              {
+                "text": "3. Put the victim who is having the seizure into a supine position on the floor or flat surface."
+              },
+              {
+                "text": "4. Put something soft and flat under his head."
+              },
+              {
+                "text": "5. Turn him gently onto one side into a recovery position to prevent choking and keep the airway clear."
+              },
+              {
+                "text": "6. If his seizure is seated, turn him gently to one side so any fluid drains away from mouth."
+              },
+              {
+                "text": "7. Don’t give any fluid or medicine until the seizure is completely over and he is fully alert."
+              },
+              {
+                "text": "8. Be assuring, comforting and calm with him as his awareness returns. "
+              },
+              {
+                "text": "9. If he is confused for a persistent period of time, get a medical evaluation."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1592122148731",
+      "conditions": "@non-fire-incident:(Active seizure)",
+      "dialog_node": "response_2_1592122215577",
+      "previous_sibling": "response_5_1592122188416"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1. Check for surrounding danger."
+              },
+              {
+                "text": "2. Check for victim's response."
+              },
+              {
+                "text": "3. Call ambulance."
+              },
+              {
+                "text": "4. Lay the person on his back and open his airway."
+              },
+              {
+                "text": "5. Check for breathing."
+              },
+              {
+                "text": "6. If breathing is absent, abnormal or unsure, place your hands at the centre of the chest."
+              },
+              {
+                "text": "7. Push hard and fast at 2 compressions per second."
+              },
+              {
+                "text": "8. Repeat cycles of 30 compressions and 2 rescue breaths."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1592122148731",
+      "conditions": "@non-fire-incident:CPR",
+      "dialog_node": "response_8_1592122160694"
+    },
+    {
+      "type": "slot",
+      "parent": "Anything else",
+      "dialog_node": "slot_4_1592123358518"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1592123921442",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1592123921442",
+      "previous_sibling": "handler_5_1592123921442"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1592123921442",
+      "context": {
+        "Yes": "#Yes"
+      },
+      "conditions": "#Yes",
+      "event_name": "input",
+      "dialog_node": "handler_5_1592123921442"
+    },
+    {
+      "type": "standard",
+      "title": "Non-fire incident",
+      "parent": "node_6_1592104912709",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@non-fire-incident",
+      "dialog_node": "node_10_1592122148731",
+      "previous_sibling": "node_4_1592107174276"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Then quickly check is there any fire extinguisher nearby, if no try to get some source of water. "
+              },
+              {
+                "text": "Look for the source of flame and try to put it out."
+              },
+              {
+                "text": "At the same time, evacuate everyone who is in the vicinity out of the premise."
+              },
+              {
+                "text": "Btw, you know how to use a fire-extinguisher?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1592104912709",
+      "conditions": "#Yes",
+      "dialog_node": "response_5_1592107458371",
+      "previous_sibling": "slot_4_1592108475557"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Then what kind of incident do you encounter?"
+              },
+              {
+                "text": "My record consists of these incidents: CPR required, AED required, Cardiac arrest, Heart attack, Stroke, Active seizure, Breathing difficulty, Asthma, Choking, Unconsciousness, Low blood sugar, Burns and Falls in the elderly."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1592104912709",
+      "conditions": "#No",
+      "dialog_node": "response_10_1592107475945",
+      "previous_sibling": "response_5_1592107458371"
+    },
+    {
+      "type": "standard",
+      "title": "Idk how to fire extinguisher",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Just remember PASS."
+              },
+              {
+                "text": "1. Pull out the safety pin."
+              },
+              {
+                "text": "2. Aim the nozzle at base of fire."
+              },
+              {
+                "text": "3. Squeeze the top lever"
+              },
+              {
+                "text": "4. Sweep the nozzle from side to side."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1592104912709",
+      "conditions": "#idk_extinguisher || #No",
+      "dialog_node": "node_4_1592107174276",
+      "previous_sibling": "response_10_1592107475945"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1592104912709",
+      "dialog_node": "slot_4_1592108475557"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1592108504083",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1592108504141",
+      "previous_sibling": "handler_6_1592108504141"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1592108504083",
+      "event_name": "input",
+      "dialog_node": "handler_6_1592108504141"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1592123358518",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1592123358525",
+      "previous_sibling": "handler_7_1592123358525"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1592123358518",
+      "event_name": "input",
+      "dialog_node": "handler_7_1592123358525"
+    },
+    {
+      "type": "frame",
+      "title": "Fire-related",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Yes || #No",
+      "dialog_node": "node_6_1592104912709",
+      "previous_sibling": "node_3_1592123921436"
+    },
+    {
+      "type": "standard",
+      "title": "Draft",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, I am your assistant for today."
+              },
+              {
+                "text": "Hey, I am here to provide the job aid you need."
+              },
+              {
+                "text": "Hello, I am here to guide you on what you need to do."
+              },
+              {
+                "text": "Yo, I am here to help you in attending to incidents."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "What incident do you encounter?"
+              },
+              {
+                "text": "What incident do you think it is?"
+              },
+              {
+                "text": "What type of incident is it?"
+              },
+              {
+                "text": "What incident is it?"
+              },
+              {
+                "text": "What kind of incident are you attending to?"
+              },
+              {
+                "text": "Which incident do you want to refer to?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Here is the list of incidents I have in my record. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1592104784854",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "frame",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_6_1592104912709",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, I am your assistant for today."
+              },
+              {
+                "text": "Hey, I am here to provide the job aid you need."
+              },
+              {
+                "text": "Hello, I am here to guide you on what you need to do."
+              },
+              {
+                "text": "Yo, I am here to help you in attending to incidents."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Is your current incident related to fire?"
+              },
+              {
+                "text": "Is your current incident a fire-related one?"
+              },
+              {
+                "text": "Does your this incident involve fire?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "node_3_1592123921436"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}
